@@ -32,7 +32,7 @@
 
 .carousel-control-next .custom-next-icon {
     background-color: #F7A582;
-  
+
     color: white;
 }
 
@@ -41,11 +41,37 @@
     background: white;
     color: #F7A582;
     border-color: #F7A582;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
 .btn-outline-peach:hover {
     background-color: #F7A582;
-    color: white; 
+    color: white;
     border-color: #F7A582;
+}
+
+
+/* Styling the input fields */
+.custom-input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 12px 20px;
+}
+
+/* Change placeholder color */
+.custom-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Book Now button color */
+.btn-book-now  {
+    background-color: #F7A582;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-book-now:hover {
+    background: #c25627;
+    color: white;
 }
