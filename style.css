@@ -1,4 +1,51 @@
-.banner-holder{
+.banner-holder {
     background-image: url(img/bannerBack.png);
     background-size: cover;
+}
+
+
+#serviceTabs .nav-link.active {
+    background-color: #F7A582;
+    color: #000000;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 17%;
+    opacity: 1;
+}
+
+.custom-prev-icon,
+.custom-next-icon {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid #F7A582;
+    color: #F7A582;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.carousel-control-next .custom-next-icon {
+    background-color: #F7A582;
+  
+    color: white;
+}
+
+
+.btn-outline-peach {
+    background: white;
+    color: #F7A582;
+    border-color: #F7A582;
+    transition: all 0.3s ease; 
+}
+
+.btn-outline-peach:hover {
+    background-color: #F7A582;
+    color: white; 
+    border-color: #F7A582;
 }
