@@ -49,17 +49,19 @@
     <section class="banner-holder pt-5">
         <div class="container">
             <div class="row justify-content-start align-items-center py-2">
-            <!-- <img src="img/half_capsule.png" alt="" style="position: absolute; bottom: 50%; left: 5%; width: 12%;"> -->
+                <!-- <img src="img/half_capsule.png" alt="" style="position: absolute; bottom: 50%; left: 5%; width: 12%;"> -->
 
-                <div class="col-md-5 mt-md-5">
-                    <div class="banner-content text-white p-5 mb-5 p-md-5 text-center text-md-start">
+                <!-- <div class="col-md-5 mt-md-5 "> -->
+                <div class="banner-content text-white p-5 mb-5 text-center text-md-start">
+                    <nav class="text-center text-md-start">
                         <ul class="breadcrumb">
-                            <li><a href="#" class="text-decoration-none text-white">Home /</a></li>
+                            <li><a href="index.html" class="text-decoration-none text-white">Home /</a></li>
                             <li><a href="#" class="text-decoration-none text-white fw-semibold"> Doctor Profile</a></li>
                         </ul>
-                        <h1 >Doctor Profile</h1>
-                    </div>
+                    </nav>
+                    <h1>Doctor Profile</h1>
                 </div>
+                <!-- </div> -->
             </div>
         </div>
     </section>
@@ -151,13 +153,143 @@
             </div>
 
 
-            <div class="row mt-5">
-                <div class="card pt-4 border-0 mb-5">
-                    <div class="card-header border-0 bg-white">
+            <div class="row pt-5 justify-content-center">
+                <div class="col-md-10">
+                    <div class="row mt-5">
+                        <div class="card pt-4 border-0 mb-5">
+                            <div class="card-header border-0 bg-white">
+                                <ul class="nav nav-pills mb-3 border-bottom rounded-3" id="serviceTabs">
+                                    <li class="nav-item flex-fill ">
+                                        <button class="nav-link active text-dark w-100 py-3" id="overview-tab"
+                                            data-bs-toggle="pill" data-bs-target="#overview"
+                                            type="button">Overview</button>
+                                    </li>
+                                    <li class="nav-item flex-fill">
+                                        <button class="nav-link text-dark w-100 py-3" id="locations-tab"
+                                            data-bs-toggle="pill" data-bs-target="#locations"
+                                            type="button">Locations</button>
+                                    </li>
+                                    <li class="nav-item flex-fill d-md-inline-block d-none">
+                                        <button class="nav-link text-dark w-100 py-3" id="surgery-tab"
+                                            data-bs-toggle="pill" data-bs-target="#reviews"
+                                            type="button">Reviews</button>
+                                    </li>
 
+                                    <li class="nav-item flex-fill d-md-inline-block d-none">
+                                        <button class="nav-link text-dark w-100 py-3" id="business-tab"
+                                            data-bs-toggle="pill" data-bs-target="#business" type="button">Business
+                                            Hours</button>
+                                    </li>
+                                </ul>
+                                </ul>
+                            </div>
+                            <div class="card-body p-4" style="color: #3B3A3A;">
+                                <div class="tab-content" id="doctorProfileContent">
+                                    <div class="tab-pane fade show active" id="overview" role="tabpanel">
+                                        <p class="fw-bold">About Me</p>
+                                        <p class="small">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis magni
+                                            repudiandae odit fugit et similique vero expedita aspernatur ab iste
+                                            accusamus, autem ratione sint, architecto minima sit obcaecati fuga illo
+                                            numquam illum fugiat exercitationem! Molestiae corporis amet aut repellendus
+                                            quisquam voluptatem, tempore porro at officiis recusandae nesciunt
+                                            necessitatibus debitis? Quas perspiciatis asperiores similique, mollitia
+                                            dolore iusto maiores blanditiis numquam pariatur?
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <p class="fw-bold">Education</p>
+                                                <ul>
+                                                    <li class="fw-bold small">American Dental Medical University
+                                                        <ul class="list-unstyled fw-normal">
+                                                            <li>BDS</li>
+                                                            <li>1998 - 2003</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="fw-bold small">American Dental Medical University
+                                                        <ul class="list-unstyled fw-normal">
+                                                            <li>MDS</li>
+                                                            <li>2003 - 2005</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <p class="fw-bold">Work & Experience</p>
+                                                <ul>
+                                                    <li class="fw-bold small">Glowing Smiles Family Dental Clinic
+                                                        <ul class="list-unstyled fw-normal">
+                                                            <li>2010 - Present (5 years)</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="fw-bold small">Comfort Care Dental Clinic
+                                                        <ul class="list-unstyled fw-normal">
+                                                            <li>2007 - 2010 (3 years)</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="fw-bold small">Dream Smile Dental Practice
+                                                        <ul class="list-unstyled fw-normal">
+                                                            <li>2005 - 2007 (2 years)</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <p class="fw-bold">Services</p>
+                                                <ul class="small">
+                                                    <li>Tooth Cleaning</li>
+                                                    <li>Root Canal Theory</li>
+                                                    <li>Implants</li>
+                                                    <li>Composite Bonding</li>
+                                                    <li>Fissure Bonding</li>
+                                                    <li>Surgical Extractions</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p class="fw-bold">Awards</p>
+                                                <ul class="small">
+                                                    <p class="m-0">July 2019</p>
+                                                    <li class="fw-bold">Humanitarian Award</li>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Assumenda consectetur necessitatibus voluptate praesentium ad
+                                                        iusto nobis illo eos.
+                                                    </p>
+                                                </ul>
+                                                <ul class="small">
+                                                    <p class="m-0">March 2011</p>
+                                                    <li class="fw-bold">Certificate for International Volunteer Service
+                                                    </li>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Molestias doloribus harum perspiciatis eaque fuga sapiente magni
+                                                        enim quia!</p>
+                                                </ul>
+                                                <div class="ms-4">
+                                                    <p class="m-0 small">March 2008</p>
+                                                    <li class="fw-bold small">The Dental Professional of The Year Award
+                                                    </li>
+                                                    <p class="small">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Molestias doloribus harum perspiciatis eaque fuga sapiente magni
+                                                        enim quia!
+                                                    </p>
+                                                    <p class="fw-bold">Specializations</p>
+                                                    <ul class="small">
+                                                        <li>Children Care</li>
+                                                        <li>Dental Care</li>
+                                                        <li>Oral and Maxillofacial Surgery</li>
+                                                        <li>Orthodontist</li>
+                                                        <li>Periodontist</li>
+                                                        <li>Prosthodontics</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+        </div>
 
         </div>
     </section>
