@@ -55,10 +55,10 @@
                         <p class="mb-4" style="font-size: 15px;">Lorem Ipsum is simply dummy text they are printing
                             typesetting has been the
                             industry’s stardard.</p>
-                        <button type="button" 
+                        <button type="button"
                             class="btn btn-book-now rounded-2 text-white fw-bold py-2 px-3 border-0 d-md-block">
-                           
-                           <a href="#service-gula" class="text-decoration-none text-white"> All Service</a>
+
+                            <a href="#service-gula" class="text-decoration-none text-white"> All Service</a>
                         </button>
                     </div>
                 </div>
@@ -243,7 +243,7 @@
                 explicabo.
             </p>
 
-            <div id="testimonialCarousel" class="carousel">
+            <div id="testimonialCarousel" class="carousel slide">
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
@@ -298,9 +298,62 @@
                         </div>
                     </div>
 
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-5 mb-3">
+                                <div class="card p-4 border rounded-4 text-start shadow-sm">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/patient_1.png" class="rounded-circle me-3 border border-3">
+                                            <div>
+                                                <h6 class="fw-bold mb-0">Awlad Hossain</h6>
+                                                <small class="text-muted">Product Designer</small>
+                                            </div>
+                                        </div>
+                                        <span style="color: #F7A582;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                                                fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <p class="text-muted small">Lorem Ipsum has been the industry’s standard dummy text
+                                        ever since the 1500s, when an unknow printer tool a galley of type and scrambled
+                                        it to make type specimen book has survived not only five centurines.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-5 mb-3 d-md-inline d-none">
+                                <div class="card p-4 border rounded-4 text-start shadow-sm">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="img/patient_2.png" class="rounded-circle me-3 border border-3">
+                                            <div>
+                                                <h6 class="fw-bold mb-0">Farhana Hossain</h6>
+                                                <small class="text-muted">Brand Designer</small>
+                                            </div>
+                                        </div>
+                                        <span style="color: #F7A582;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                                                fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <p class="text-muted small">Lorem Ipsum has been the industry’s standard dummy text
+                                        ever since the 1500s, when an unknow printer tool a galley of type and scrambled
+                                        it to make type specimen book has survived not only five centurines.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <button class="carousel-control-prev" type="button">
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
                     <span class="custom-prev-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-chevron-left" viewBox="0 0 16 16">
@@ -309,7 +362,7 @@
                         </svg>
                     </span>
                 </button>
-                <button class="carousel-control-next" type="button">
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
                     <span class="custom-next-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-chevron-right" viewBox="0 0 16 16">
