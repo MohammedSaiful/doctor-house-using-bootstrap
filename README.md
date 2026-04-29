@@ -2,8 +2,7 @@
 - A modern, responsive, and clean Doctor Profile web page built with Bootstrap 5. This project showcases a professional UI for healthcare providers, featuring a detailed profile card, interactive service tabs, and a cohesive brand identity.
 
 ##  Live Demo
-  
-**[Doctor House Live](https://doctor-house-using-bootstrap.vercel.app/)**
+- View the live version of this project here: **[Doctor House Live](https://doctor-house-using-bootstrap.vercel.app/)**
 
 
 # Key Features
